@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.franklinsierra.Fragments.InfoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="See More Info"
+        android:textStyle="italic" />
+
+    <include layout="@layout/fab_information" />
+
+</FrameLayout>
